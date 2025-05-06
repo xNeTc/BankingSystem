@@ -12,7 +12,7 @@ public class BankingSystemTest {
         assertEquals(500, account.getBalance(), "Initial balance should be 500");
     }
 
-    // 2. Test case for creating an account with a negative balance (should fail)
+    // 2. Test case for creating an account with a negative balance
     @Test
     public void testCreateAccountWithNegativeBalance() {
         assertThrows(IllegalArgumentException.class, () -> new BankAccount(-100),
@@ -27,7 +27,7 @@ public class BankingSystemTest {
         assertEquals(600, account.getBalance(), "Balance should be 600 after deposit");
     }
 
-    // 4. Test case for depositing an invalid negative amount (should fail)
+    // 4. Test case for depositing an invalid negative amount
     @Test
     public void testDepositNegativeAmount() {
         BankAccount account = new BankAccount(500);
@@ -43,7 +43,7 @@ public class BankingSystemTest {
         assertEquals(400, account.getBalance(), "Balance should be 400 after withdrawal");
     }
 
-    // 6. Test case for withdrawing more money than the account balance (should fail)
+    // 6. Test case for withdrawing more money than the account balance
     @Test
     public void testWithdrawMoreThanBalance() {
         BankAccount account = new BankAccount(500);
@@ -61,7 +61,7 @@ public class BankingSystemTest {
         assertEquals(700, account2.getBalance(), "Account2 balance should be 700 after transfer");
     }
 
-    // 8. Test case for transferring money to a non-existing account (should fail)
+    // 8. Test case for transferring money to a non-existing account
     @Test
     public void testTransferToNonExistingAccount() {
         BankAccount account1 = new BankAccount(1000);
@@ -84,14 +84,14 @@ public class BankingSystemTest {
         assertTrue(account.accountExists(), "Account should exist with a zero balance");
     }
 
-    // 11. Test case for checking account existence with a negative balance (should fail)
+    // 11. Test case for checking account existence with a negative balance 
     @Test
     public void testAccountExistsWithNegativeBalance() {
         assertThrows(IllegalArgumentException.class, () -> new BankAccount(-500),
                      "Should not allow creating account with a negative balance");
     }
 
-    // 12. Test case for withdrawing an invalid negative amount (should fail)
+    // 12. Test case for withdrawing an invalid negative amount 
     @Test
     public void testWithdrawNegativeAmount() {
         BankAccount account = new BankAccount(500);
@@ -99,7 +99,7 @@ public class BankingSystemTest {
                      "Should not allow withdrawal of negative amount");
     }
 
-    // 13. Test case for transferring more money than the sender's balance (should fail)
+    // 13. Test case for transferring more money than the sender's balance 
     @Test
     public void testTransferMoreThanBalance() {
         BankAccount account1 = new BankAccount(300);
