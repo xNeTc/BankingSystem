@@ -3,7 +3,7 @@
   <properties>
     <property name="java.specification.version" value="23"/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
-    <property name="java.class.path" value="/Users/basel/Desktop/BankingSystem/demo/target/test-classes:/Users/basel/Desktop/BankingSystem/demo/target/classes:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/Users/basel/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/basel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:"/>
+    <property name="java.class.path" value="/Users/basel/Desktop/BankingSystem/target/test-classes:/Users/basel/Desktop/BankingSystem/target/classes:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/Users/basel/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/basel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:"/>
     <property name="java.vm.vendor" value="Homebrew"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
@@ -12,10 +12,10 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="SA"/>
     <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/basel/Desktop/BankingSystem/demo/target/surefire/surefirebooter1219226568492078797.jar /Users/basel/Desktop/BankingSystem/demo/target/surefire 2025-05-06T08-47-48_866-jvmRun1 surefire10875414031314820751tmp surefire_03537532840232672870tmp"/>
+    <property name="sun.java.command" value="/Users/basel/Desktop/BankingSystem/target/surefire/surefirebooter11227308833374895226.jar /Users/basel/Desktop/BankingSystem/target/surefire 2025-05-06T09-08-08_057-jvmRun1 surefire7211246242222858794tmp surefire_08009199822190497703tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="/Users/basel/Desktop/BankingSystem/demo/target/test-classes:/Users/basel/Desktop/BankingSystem/demo/target/classes:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/Users/basel/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/basel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:"/>
+    <property name="surefire.test.class.path" value="/Users/basel/Desktop/BankingSystem/target/test-classes:/Users/basel/Desktop/BankingSystem/target/classes:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.7.1/junit-jupiter-api-5.7.1.jar:/Users/basel/.m2/repository/org/apiguardian/apiguardian-api/1.1.0/apiguardian-api-1.1.0.jar:/Users/basel/.m2/repository/org/opentest4j/opentest4j/1.2.0/opentest4j-1.2.0.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-commons/1.7.1/junit-platform-commons-1.7.1.jar:/Users/basel/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.7.1/junit-jupiter-engine-5.7.1.jar:/Users/basel/.m2/repository/org/junit/platform/junit-platform-engine/1.7.1/junit-platform-engine-1.7.1.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="/Users/basel"/>
     <property name="user.language" value="en"/>
@@ -23,13 +23,13 @@
     <property name="java.version.date" value="2025-01-21"/>
     <property name="java.home" value="/opt/homebrew/Cellar/openjdk/23.0.2/libexec/openjdk.jdk/Contents/Home"/>
     <property name="file.separator" value="/"/>
-    <property name="basedir" value="/Users/basel/Desktop/BankingSystem/demo"/>
+    <property name="basedir" value="/Users/basel/Desktop/BankingSystem"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="apple.awt.application.name" value="ForkedBooter"/>
-    <property name="surefire.real.class.path" value="/Users/basel/Desktop/BankingSystem/demo/target/surefire/surefirebooter1219226568492078797.jar"/>
+    <property name="surefire.real.class.path" value="/Users/basel/Desktop/BankingSystem/target/surefire/surefirebooter11227308833374895226.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="23.0.2"/>
@@ -45,7 +45,7 @@
     <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
     <property name="java.io.tmpdir" value="/var/folders/rd/mffckmj53sl9rqgfgv09d76w0000gn/T/"/>
     <property name="java.version" value="23.0.2"/>
-    <property name="user.dir" value="/Users/basel/Desktop/BankingSystem/demo"/>
+    <property name="user.dir" value="/Users/basel/Desktop/BankingSystem"/>
     <property name="os.arch" value="aarch64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="native.encoding" value="UTF-8"/>
@@ -63,14 +63,14 @@
   <testcase name="testDepositToAccount" classname="com.BankingSystemTest" time="0"/>
   <testcase name="testMultipleAccounts" classname="com.BankingSystemTest" time="0"/>
   <testcase name="testWithdrawFromAccount" classname="com.BankingSystemTest" time="0"/>
-  <testcase name="testCreateAccountWithNegativeBalance" classname="com.BankingSystemTest" time="0"/>
+  <testcase name="testCreateAccountWithNegativeBalance" classname="com.BankingSystemTest" time="0.001"/>
   <testcase name="testAccountExistsWithPositiveBalance" classname="com.BankingSystemTest" time="0"/>
   <testcase name="testCreateAccountWithValidBalance" classname="com.BankingSystemTest" time="0"/>
-  <testcase name="testAccountExistsWithNegativeBalance" classname="com.BankingSystemTest" time="0.001"/>
-  <testcase name="testTransferToNonExistingAccount" classname="com.BankingSystemTest" time="0"/>
-  <testcase name="testDepositNegativeAmount" classname="com.BankingSystemTest" time="0.001"/>
-  <testcase name="testWithdrawMoreThanBalance" classname="com.BankingSystemTest" time="0"/>
-  <testcase name="testTransferMoreThanBalance" classname="com.BankingSystemTest" time="0.001"/>
+  <testcase name="testAccountExistsWithNegativeBalance" classname="com.BankingSystemTest" time="0"/>
+  <testcase name="testTransferToNonExistingAccount" classname="com.BankingSystemTest" time="0.001"/>
+  <testcase name="testDepositNegativeAmount" classname="com.BankingSystemTest" time="0"/>
+  <testcase name="testWithdrawMoreThanBalance" classname="com.BankingSystemTest" time="0.001"/>
+  <testcase name="testTransferMoreThanBalance" classname="com.BankingSystemTest" time="0"/>
   <testcase name="testWithdrawNegativeAmount" classname="com.BankingSystemTest" time="0"/>
-  <testcase name="testAccountExistsWithZeroBalance" classname="com.BankingSystemTest" time="0"/>
+  <testcase name="testAccountExistsWithZeroBalance" classname="com.BankingSystemTest" time="0.001"/>
 </testsuite>
